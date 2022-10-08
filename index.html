@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  </head>
+  <body class="light-theme">
+    <div class="experience">
+      <canvas class="experience-canvas"></canvas>
+    </div>
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page" asscroll-container>
+      <!-- 切换按钮 -->
+      <div class="toggle-bar">
+        <div class="sun-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" class="ionicon" viewBox="0 0 512 512">
+            <title>Sunny</title>
+            <path
+              fill="none"
+              stroke="currentColor"
+              color="currentColor"
+              stroke-linecap="round"
+              stroke-miterlimit="10"
+              stroke-width="32"
+              d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94"
+            />
+            <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" />
+          </svg>
+        </div>
+        <div class="toggle-button">
+          <div class="toggle-circle"></div>
+        </div>
+        <div class="moon-wrapper">
+          <!-- <ion-icon size="24px" name="moon-outline"></ion-icon> -->
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" class="ionicon" viewBox="0 0 512 512">
+            <title>Moon</title>
+            <path
+              d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z"
+              fill="none"
+              color="currentColor"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="32"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="page-wrapper" asscroll>
+        <section class="hero">
+          <div class="hero-wrapper">
+            <!-- Intro stuff -->
+            <div class="intro-text">Welcome to my portfolio!</div>
+            <div class="arrow-svg-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" class="ionicon" viewBox="0 0 512 512">
+                <title>Chevron Down</title>
+                <path color="currentColor" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144" />
+              </svg>
+            </div>
+            <div class="hero-main">
+              <h1 class="hero-main-title">Abigail Bloom</h1>
+              <p class="hero-main-description">Digital Media Student | 3D Artist</p>
+            </div>
+
+            <div class="hero-section">
+              <p class="hero-section-subheading first-sub">AbigailBloom</p>
+              <p class="hero-section-subheading second-sub">Portfolio</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="first-move section-margin"></div>
+
+        <section class="first-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="section-intro-wrapper">
+            <h1 class="section-title">
+              <span class="section-title-text">About Me</span>
+              <div class="section-title-decoration styleOne"></div>
+              <div class="section-title-decoration styleTwo"></div>
+              <div class="section-title-decoration styleThree"></div>
+            </h1>
+            <span class="section-number">01</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Lorem Ipsum</h3>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum neque magnam
+              magni sed nemo sit!
+            </p>
+            <h3 class="section-heading">Lorem Ipsum</h3>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum neque magnam
+              magni sed nemo sit!
+            </p>
+            <h3 class="section-heading">Lorem Ipsum</h3>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum neque magnam
+              magni sed nemo sit!
+            </p>
+          </div>
+        </section>
+
+        <div class="second-move section-margin"></div>
+
+        <section class="second-section section right">
+          <div class="progress-wrapper progress-bar-wrapper-right">
+            <div class="progress-bar blue-background"></div>
+          </div>
+
+          <div class="section-intro-wrapper blue-text blue-border">
+            <h1 class="section-title blue-text blue-border">
+              <span class="section-title-text blue-text">My Work</span>
+              <div class="section-title-decoration styleOne blue-border"></div>
+              <div class="section-title-decoration styleTwo blue-border"></div>
+              <div class="section-title-decoration styleThree blue-background blue-border"></div>
+            </h1>
+            <span class="section-number blue-text">02</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Lorem Ipsum</h3>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum neque magnam
+              magni sed nemo sit!
+            </p>
+            <h3 class="section-heading">Lorem Ipsum</h3>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum neque magnam
+              magni sed nemo sit!
+            </p>
+            <h3 class="section-heading">Lorem Ipsum</h3>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum neque magnam
+              magni sed nemo sit!
+            </p>
+          </div>
+        </section>
+
+        <div class="third-move section-margin"></div>
+
+        <section class="third-section section left">
+          <div class="progress-wrapper progress-bar-wrapper-left">
+            <div class="progress-bar green-background"></div>
+          </div>
+          <div class="section-intro-wrapper green-text green-border">
+            <h1 class="section-title green-text green-border">
+              <span class="section-title-text green-text">Contact Me</span>
+              <div class="section-title-decoration styleOne green-border"></div>
+              <div class="section-title-decoration styleTwo green-border"></div>
+              <div class="section-title-decoration styleThree green-background green-border"></div>
+            </h1>
+            <span class="section-number green-text">03</span>
+          </div>
+
+          <div class="section-detail-wrapper">
+            <h3 class="section-heading">Lorem Ipsum</h3>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum neque magnam
+              magni sed nemo sit!
+            </p>
+            <h3 class="section-heading">Lorem Ipsum</h3>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum neque magnam
+              magni sed nemo sit!
+            </p>
+            <h3 class="section-heading">Lorem Ipsum</h3>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum neque magnam
+              magni sed nemo sit!
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
