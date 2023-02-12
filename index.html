@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>chz-portfolio</title>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script type="module" crossorigin src="/assets/index.0911577b.js"></script>
+      <link rel="stylesheet" href="/assets/index.4d3d62a5.css">
+    </head>
+    <body class="light-theme">
+        <div class="experience">
+            <canvas class="experience-canvas"></canvas>
+        </div>
+
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="preloader-wrapper">
+                <div class="loading">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page" asscroll-container>
+            <!-- 切换按钮 -->
+            <div class="toggle-bar">
+                <div class="sun-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" class="ionicon" viewBox="0 0 512 512">
+                        <title>Sunny</title>
+                        <path
+                            fill="none"
+                            stroke="currentColor"
+                            color="currentColor"
+                            stroke-linecap="round"
+                            stroke-miterlimit="10"
+                            stroke-width="32"
+                            d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94"
+                        />
+                        <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" />
+                    </svg>
+                </div>
+                <div class="toggle-button">
+                    <div class="toggle-circle"></div>
+                </div>
+                <div class="moon-wrapper">
+                    <!-- <ion-icon size="24px" name="moon-outline"></ion-icon> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" class="ionicon" viewBox="0 0 512 512">
+                        <title>Moon</title>
+                        <path
+                            d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z"
+                            fill="none"
+                            color="currentColor"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="32"
+                        />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="page-wrapper" asscroll>
+                <section class="hero">
+                    <div class="hero-wrapper">
+                        <!-- Intro stuff -->
+                        <div class="intro-text">欢迎，这是我使用Three.js完成的一个作品。</div>
+                        <div class="arrow-svg-wrapper">
+                            <div style="color: #666; margin-left: -35%">鼠标滚轮滚动继续浏览。</div>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" class="ionicon" viewBox="0 0 512 512">
+                                <title>Chevron Down</title>
+                                <path color="currentColor" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144" />
+                            </svg>
+                        </div>
+                        <div class="hero-main">
+                            <h1 class="hero-main-title">Little Room</h1>
+                            <p class="hero-main-description">First version</p>
+                        </div>
+
+                        <div class="hero-section">
+                            <p class="hero-section-subheading first-sub">作者：刘博文</p>
+                            <p class="hero-section-subheading second-sub">技术栈: Three.js + Blender</p>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="first-move section-margin"></div>
+
+                <section class="first-section section left">
+                    <div class="progress-wrapper progress-bar-wrapper-left">
+                        <div class="progress-bar"></div>
+                    </div>
+
+                    <div class="section-intro-wrapper">
+                        <h1 class="section-title">
+                            <span class="section-title-text">关于我</span>
+                            <div class="section-title-decoration styleOne"></div>
+                            <div class="section-title-decoration styleTwo"></div>
+                            <div class="section-title-decoration styleThree"></div>
+                        </h1>
+                        <span class="section-number">01</span>
+                    </div>
+
+                    <div class="section-detail-wrapper">
+                        <h3 class="section-heading">基本信息</h3>
+                        <p class="section-text">
+                            掌握HTML5 + CSS3，能结合 Sass 等预处理器进行设计稿还原 <br />掌握JavaScript并能运用 ES6+ 语法进行高效开发 <br />
+                            熟练使用Vue全家桶、React全家桶相关技术 会使用Three.js进行开发工作 <br />
+                            理解Webpack、Vite前端构建工具，实现过简单的Loader、Plugin<br />
+                            了解数据结构与算法<br />
+                            GitHub: https://github.com/chuhezhe0807
+                        </p>
+                        <h3 class="section-heading">个人项目</h3>
+                        <p class="section-text">
+                            1、技术栈: Three.js + Blender 个人介绍项目（当前项目）<br />
+                            2、技术栈: React + Redux + TypeScript + 原生Canvas + Ant Design
+                            一个常见的通用后台管理系统，封装Axios，动态路由，使用Redux作为状态管理工具。canvas部分实现画布放缩、拖拽，支持画布中元素的修改大小、移动位置和旋转。canvas原生实现动画，使用A*算法实现自动寻路、绘制生长梅花图案等。<br />
+                            3、技术栈: Node.js 根据配置文件自动生成路由表的命令行工具。深度优先遍历、对象序列化写入文件。
+                        </p>
+                        <h3 class="section-heading">其他技能</h3>
+                        <p class="section-text">
+                            1、会使用Blender构建三维模型。<br />
+                            2、熟练使用World、Excel和PPT等办公软件，会使用Visio梳理业务，绘制业务流程。
+                        </p>
+                    </div>
+                </section>
+
+                <div class="second-move section-margin"></div>
+
+                <section class="second-section section right">
+                    <div class="progress-wrapper progress-bar-wrapper-right">
+                        <div class="progress-bar blue-background"></div>
+                    </div>
+
+                    <div class="section-intro-wrapper blue-text blue-border">
+                        <h1 class="section-title blue-text blue-border">
+                            <span class="section-title-text blue-text">工作经历</span>
+                            <div class="section-title-decoration styleOne blue-border"></div>
+                            <div class="section-title-decoration styleTwo blue-border"></div>
+                            <div class="section-title-decoration styleThree blue-background blue-border"></div>
+                        </h1>
+                        <span class="section-number blue-text">02</span>
+                    </div>
+
+                    <div class="section-detail-wrapper">
+                        <h3 class="section-heading">工作经历一</h3>
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum
+                            neque magnam magni sed nemo sit!
+                        </p>
+                        <h3 class="section-heading">Lorem Ipsum</h3>
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum
+                            neque magnam magni sed nemo sit!
+                        </p>
+                        <h3 class="section-heading">Lorem Ipsum</h3>
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum
+                            neque magnam magni sed nemo sit!
+                        </p>
+                    </div>
+                </section>
+
+                <div class="third-move section-margin"></div>
+
+                <section class="third-section section left">
+                    <div class="progress-wrapper progress-bar-wrapper-left">
+                        <div class="progress-bar green-background"></div>
+                    </div>
+                    <div class="section-intro-wrapper green-text green-border">
+                        <h1 class="section-title green-text green-border">
+                            <span class="section-title-text green-text">联系我</span>
+                            <div class="section-title-decoration styleOne green-border"></div>
+                            <div class="section-title-decoration styleTwo green-border"></div>
+                            <div class="section-title-decoration styleThree green-background green-border"></div>
+                        </h1>
+                        <span class="section-number green-text">03</span>
+                    </div>
+
+                    <div class="section-detail-wrapper">
+                        <h3 class="section-heading">说明</h3>
+                        <p class="section-text">
+                            这个作品是我按照教程一步步编写而成的，完成后收获颇丰，对于 Three.js
+                            中常用的Materials、Geometries、Lights、Helpers等模块有了更加深入的理解，同时掌握了Blender的基本操作，能够独立完成模型的构建。<br />
+                            后续会精进Three.js、Blender技术，培养审美，争取在未来的某一天能够独立的完成这样的作品。
+                        </p>
+                        <h3 class="section-heading">Lorem Ipsum</h3>
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum
+                            neque magnam magni sed nemo sit!
+                        </p>
+                        <h3 class="section-heading">Lorem Ipsum</h3>
+                        <p class="section-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus exercitationem dignissimos voluptas omnis ipsam iusto a excepturi sunt tempore, labore id hic nobis, ipsum
+                            neque magnam magni sed nemo sit!
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+    </body>
+</html>
